@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [vue()],
   server: {
     fs: {
-      deny: ["**/.git/**"]
+      deny: ["**/src/**"]
     },
     host: "0.0.0.0"
   }
